@@ -1,0 +1,96 @@
+body {
+  background-color: black;
+  color: white;
+}
+.logo {
+  width: 12vw;
+  border-radius: 5px;
+  top: 55px;
+}
+.header {
+  background-image: url(ima/dima.png);
+}
+.header h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 50px;
+  background-image: url(ima/dima.png);
+}
+h1 span {
+  color: rgb(0, 255, 51);
+}
+
+.bio img {
+  width: 30vw;
+  border-radius: 20px;
+  margin: 30px;
+}
+.bio {
+  display: flex;
+  text-align: center;
+  gap: 20px;
+  padding: 1rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+}
+input {
+  background-color: black;
+}
+button {
+  background-color: aqua;
+  color: black;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 0px;
+}
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 0px;
+  gap: 70px;
+  padding-bottom: 80px;
+  margin: 10px;
+}
+.box {
+  text-align: center;
+  width: 70px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-radius: 5px;
+  padding: 10px;
+}
+.skills .python {
+  background-color: #ff4d4d;
+}
+.cpp {
+  background-color: #3434ff !important;
+}
+.java {
+  background-color: #2ecc71 !important;
+}
+.js {
+  background-color: #f1c40f;
+  color: white;
+}
+@media (max-width: 668px) {
+  .bio {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 668px) {
+  .skills {
+    flex-direction: column;
+    text-align: center;
+  }
+}
